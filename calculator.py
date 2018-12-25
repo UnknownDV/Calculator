@@ -20,6 +20,7 @@ while calculator_mode == 3:
       calculator_mode = 2
    else:
       print("Please type an acceptable input")
+      continue
 
 # Asks user what calculation mode they would like to use
 while calculator_mode == 0:
